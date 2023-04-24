@@ -1,11 +1,10 @@
 <?php
-    $conn= mysqli_connect ('localhost:3308', 'root', '', 'Demo_Stored_XSS_Database') or die ('Không thể kết nối tới database');
+    $conn= mysqli_connect ('localhost', 'root', '', 'Demo_Stored_XSS_Database') or die ('Không thể kết nối tới database');
     mysqli_set_charset($conn, 'UTF8');
 
     if($conn === false){ 
       die("ERROR: Could not connect. " . mysqli_connect_error()); 
     }
-
 
     $sql = "SELECT Username, CommentContent FROM Comment";
     $result = $conn->query($sql);
@@ -23,4 +22,5 @@
         
       }
     }
+
 ?>
