@@ -1,0 +1,110 @@
+body {
+    display: block;
+    width: 100%;
+    float: top;
+    background-color: black;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/448/174/357/neon-4k-hd-best-for-desktop-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+a {
+    width: max-content;
+    font-size: 10px;
+    background-color: tomato;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+    align-self: center;
+    text-align: center;
+}
+
+/* ------------ form part ------------- */
+form {
+    position: relative;
+    align-self: center;
+    align-items: center;
+    margin-top: 0px;
+    width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+    position: relative;
+
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    position: relative;
+
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: medium;
+    margin: 20px;
+    position: relative;
+}
+
+form label {
+    color: white;
+    display: block;
+    align-items: start;
+    padding: 10px 10px 5px 0;
+    margin: 20px 0 5px 0;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    object-fit: cover;
+}
+
+form input {
+    
+    width: 100%;
+    display: block;
+    align-self: center;
+    position: relative;
+    padding: 10px 0px 10px 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-weight: bold;
+    color: gray;
+}
+
+form button {
+    position: relative;
+    margin-top: 50px;
+    align-self: center;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px 50px 10px 50px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: tomato;
+}
+
